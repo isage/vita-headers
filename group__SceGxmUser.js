@@ -1778,6 +1778,8 @@ var group__SceGxmUser =
     [ "sceGxmSetFragmentProgram", "group__SceGxmUser.html#ga89af83cb3ba92c119d551f64c9e8c4fd", null ],
     [ "sceGxmReserveVertexDefaultUniformBuffer", "group__SceGxmUser.html#gaa1ed549d6fe95b70c08a2ee4d9607534", null ],
     [ "sceGxmReserveFragmentDefaultUniformBuffer", "group__SceGxmUser.html#gadf7af855f6b525fa5ad3c306f5efe0f0", null ],
+    [ "sceGxmSetVertexDefaultUniformBuffer", "group__SceGxmUser.html#ga625579e9a05bbda7ac35df0afdfc8b65", null ],
+    [ "sceGxmSetFragmentDefaultUniformBuffer", "group__SceGxmUser.html#ga67b474f0b4c514d30b902694e679a7c4", null ],
     [ "sceGxmSetVertexStream", "group__SceGxmUser.html#ga1ff8fe66106a8a0b24fac727c116d539", null ],
     [ "sceGxmSetVertexTexture", "group__SceGxmUser.html#ga12d646576ae932160113746a5d57d4d0", null ],
     [ "sceGxmSetFragmentTexture", "group__SceGxmUser.html#ga3cdc32317b080518e958aef701622be6", null ],
@@ -1829,6 +1831,7 @@ var group__SceGxmUser =
     [ "sceGxmSetBackVisibilityTestOp", "group__SceGxmUser.html#ga9cb0bd0adc9ef4a7807cadfa0b4bd1c4", null ],
     [ "sceGxmSetFrontVisibilityTestEnable", "group__SceGxmUser.html#gab1ff61ef023553fc5d16d1b19b5bdef6", null ],
     [ "sceGxmSetBackVisibilityTestEnable", "group__SceGxmUser.html#gace6fb8549094b397c4620a5230cddb72", null ],
+    [ "sceGxmSetYuvProfile", "group__SceGxmUser.html#ga23530fccf15b61136e090a4b8b708d9e", null ],
     [ "sceGxmFinish", "group__SceGxmUser.html#ga71ca45f4da92231417ed116e143a0746", null ],
     [ "sceGxmPushUserMarker", "group__SceGxmUser.html#ga756bcded1fa8119b6e10717041534f96", null ],
     [ "sceGxmPopUserMarker", "group__SceGxmUser.html#ga372be24a237c0d5d7762a332a117602f", null ],
@@ -1978,6 +1981,6 @@ var group__SceGxmUser =
     [ "sceGxmSetUniformDataF", "group__SceGxmUser.html#ga056dfffe5cdbf51035becf28b8166421", null ],
     [ "sceGxmTransferCopy", "group__SceGxmUser.html#gadf1f493cd3bfb63bf4aed4641a3075cc", null ],
     [ "sceGxmTransferDownscale", "group__SceGxmUser.html#gaa23cde550c9213b294fed456c42856a8", null ],
-    [ "sceGxmTransferFill", "group__SceGxmUser.html#ga652a31831a68f0b01c142e81baab4276", null ],
+    [ "sceGxmTransferFill", "group__SceGxmUser.html#gaa812ad57c4eb6550339fdade5a5aa024", null ],
     [ "sceGxmTransferFinish", "group__SceGxmUser.html#ga90cd5c5b092fb7bbe0be8d41549256ba", null ]
 ];

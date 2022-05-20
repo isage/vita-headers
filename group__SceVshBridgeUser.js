@@ -1,8 +1,9 @@
 var group__SceVshBridgeUser =
 [
     [ "_vshSblGetSystemSwVersion", "group__SceVshBridgeUser.html#ga252fa5f8c9e461bd50d634937608f762", null ],
-    [ "_vshSblAimgrGetSMI", "group__SceVshBridgeUser.html#ga2621957f971de7ddcf034bd93083b7fd", null ],
+    [ "_vshSblAimgrGetSMI", "group__SceVshBridgeUser.html#ga429c34807cb7c462d4c0121302a924c0", null ],
     [ "_vshSblAimgrGetConsoleId", "group__SceVshBridgeUser.html#ga7973656329d62086b3191ed3df872441", null ],
+    [ "_vshKernelSearchModuleByName", "group__SceVshBridgeUser.html#ga97081fbc3a387b72a036236f579dc780", null ],
     [ "_vshIoMount", "group__SceVshBridgeUser.html#gab437d640375011bed4c7a1a332329ef3", null ],
     [ "vshIoUmount", "group__SceVshBridgeUser.html#gaa754c13fd1fa6d1181cc449d2925bfef", null ],
     [ "vshIdStorageIsDirty", "group__SceVshBridgeUser.html#gae79046cedcbb3a3def18c7146c311902", null ],
@@ -29,5 +30,6 @@ var group__SceVshBridgeUser =
     [ "vshSysconShowModeSet", "group__SceVshBridgeUser.html#gae3bd6adbed0b1e57e623c67653a41ea2", null ],
     [ "vshSysconShowModeClear", "group__SceVshBridgeUser.html#ga7dcb9fb6b15e0b397a4315ffe3d67244", null ],
     [ "vshMemoryCardGetCardInsertState", "group__SceVshBridgeUser.html#gacf890d7df39a06ea7fc605843e2f249a", null ],
-    [ "vshRemovableMemoryGetCardInsertState", "group__SceVshBridgeUser.html#ga121a576126f3dff4688cdba0fbdfcc69", null ]
+    [ "vshRemovableMemoryGetCardInsertState", "group__SceVshBridgeUser.html#ga121a576126f3dff4688cdba0fbdfcc69", null ],
+    [ "vshMsifGetMsInfo", "group__SceVshBridgeUser.html#gaa02b3f58a73b07b38474f2a6e6d7f3f2", null ]
 ];

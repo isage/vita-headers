@@ -1,8 +1,8 @@
 var notificationutil_8h =
 [
     [ "SceNotificationUtilProgressEventHandler", "group__SceNotificationUtilUser.html#gac05c34af8df2fdc5a6d6104fb6a68f44", null ],
-    [ "SceNotificationUtilErrorCode", "group__SceNotificationUtilUser.html#gab84dd5c92292aafdbbbde71c9dcfb8df", [
-      [ "SCE_NOTIFICATIONUTIL_ERROR_INTERNAL", "group__SceNotificationUtilUser.html#ggab84dd5c92292aafdbbbde71c9dcfb8dfa0ea2da65b03f19e2a785626ac51d9f27", null ]
+    [ "SceNotificationUitlErrorCode", "group__SceNotificationUtilUser.html#ga793d50e92ce88b0a90b46927aa0e39d7", [
+      [ "SCE_NOTIFICATIONUTIL_ERROR_INTERNAL", "group__SceNotificationUtilUser.html#gga793d50e92ce88b0a90b46927aa0e39d7a0ea2da65b03f19e2a785626ac51d9f27", null ]
     ] ],
     [ "sceNotificationUtilBgAppInitialize", "group__SceNotificationUtilUser.html#ga91273215b7f26c486b1de8426304c411", null ],
     [ "sceNotificationUtilSendNotification", "group__SceNotificationUtilUser.html#gaedf422623afc25e5a25502f35d257621", null ],

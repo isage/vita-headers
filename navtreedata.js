@@ -1,26 +1,24 @@
 /*
- @licstart  The following is the entire license notice for the JavaScript code in this file.
+@licstart  The following is the entire license notice for the
+JavaScript code in this file.
 
- The MIT License (MIT)
+Copyright (C) 1997-2019 by Dimitri van Heesch
 
- Copyright (C) 1997-2020 by Dimitri van Heesch
+This program is free software; you can redistribute it and/or modify
+it under the terms of version 2 of the GNU General Public License as published by
+the Free Software Foundation
 
- Permission is hereby granted, free of charge, to any person obtaining a copy of this software
- and associated documentation files (the "Software"), to deal in the Software without restriction,
- including without limitation the rights to use, copy, modify, merge, publish, distribute,
- sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is
- furnished to do so, subject to the following conditions:
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+GNU General Public License for more details.
 
- The above copyright notice and this permission notice shall be included in all copies or
- substantial portions of the Software.
+You should have received a copy of the GNU General Public License along
+with this program; if not, write to the Free Software Foundation, Inc.,
+51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
 
- THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING
- BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
- NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM,
- DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
- OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-
- @licend  The above is the entire license notice for the JavaScript code in this file
+@licend  The above is the entire license notice
+for the JavaScript code in this file
 */
 var NAVTREE =
 [
@@ -50,7 +48,7 @@ var NAVTREE =
         [ "All", "globals.html", "globals_dup" ],
         [ "Functions", "globals_func.html", "globals_func" ],
         [ "Variables", "globals_vars.html", null ],
-        [ "Typedefs", "globals_type.html", null ],
+        [ "Typedefs", "globals_type.html", "globals_type" ],
         [ "Enumerations", "globals_enum.html", "globals_enum" ],
         [ "Enumerator", "globals_eval.html", "globals_eval" ],
         [ "Macros", "globals_defs.html", "globals_defs" ]
@@ -61,86 +59,90 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"align_8h.html",
-"group__SceAppMgrUser.html#ga372b7edb499d710ac40016b9012511cc",
-"group__SceAppUtilUser.html#ggaaf123b89620d976629825ce3f6840f0dae4cfb8cd7c0e16b100829e2eb4db2095",
-"group__SceAudioInUser.html#gga952b9bb4d200c4627dc667b0785ae00dad4ab8e194e092f8970b84980b4abc59f",
-"group__SceAudiodecUser.html#gga261ce1c505a86bac3b261a8cb3f5e1fea355176125a020cd40a066fcd1550aa72",
-"group__SceBtKernel.html#ga0c462b8a8500d0cfeb13490ac0b25f73",
-"group__SceBtKernel.html#gga342d70612661ed1c5631e7bb3cb2a74ea37f5b6b38215543ff4bfd54687b6d9e4",
-"group__SceBtKernel.html#gga342d70612661ed1c5631e7bb3cb2a74ea8c58cc864d3de5d2dbc9e44b0cb059d7",
-"group__SceBtKernel.html#gga342d70612661ed1c5631e7bb3cb2a74eaea7d332062a1184152886ef5bc2a423c",
-"group__SceCameraUser.html#ga93e59b6f8466480658afbd1058c8c155",
-"group__SceCameraUser.html#gga606bd6373b0b836b66f4451a770d2877a0402707f2f831e819956de9618697ecd",
-"group__SceCommonDialogUser.html#gga660149ef34e5d379e512219bf21ffd49ac8f35d5eea4da807bce0462c055928bf",
-"group__SceCtrlKernel.html#gga62ab7ac206d0514d11e60309f9621fb6a1951834c61aba21f0dfb38d7903f24ce",
-"group__SceCtrlKernel.html#gga7e5a5d40bbb69e9af702d5dedac70760af935d4e61120671b2acdf6cee2f776e6",
-"group__SceDisplayKernel.html#ggaa1abc2fc8664f894ce78aaf58160b728ab68af62b91ef823420da383066b8bc2d",
-"group__SceFcntlKernel.html#gga5effa92f8bfef1b789c40d88730b2da8a1fd28b67b6df4ba702c5969a8a0f94e2",
-"group__SceFcntlUser.html#ga89dbb113ece9b0f49d1a3a0e047da388",
-"group__SceGxmUser.html#ga24ffd7f1b2522415a4f5a4abae5c9797",
-"group__SceGxmUser.html#ga80e2c1ff3f25c0760a05eb37e7737c59",
-"group__SceGxmUser.html#gae3ce0c3066754bdd2843d8825630bc20",
-"group__SceGxmUser.html#gga29791baa70d7bf199afdb50b8e510d42a1a1376dbc44e807262db4945752c4cb7",
-"group__SceGxmUser.html#gga29791baa70d7bf199afdb50b8e510d42a61335f5bbc12a1257f9f834934bf4a14",
-"group__SceGxmUser.html#gga29791baa70d7bf199afdb50b8e510d42a9e0c2e79ac97db8ee82b013f948b8474",
-"group__SceGxmUser.html#gga29791baa70d7bf199afdb50b8e510d42adfef066f194dcb863e165dd77478205e",
-"group__SceGxmUser.html#gga3a7ded9fc62e889b1b86d26f97a0188da349299d6ff7a33dc2f9fdc6c3a863ed6",
-"group__SceGxmUser.html#gga504a443c7bee91a2765e7554067d53abae5e0bd716d498673e043c4337f343ae9",
-"group__SceGxmUser.html#gga86183627eb1a24e059748cb95d618cc3a0f06eb72e6b44e5470c3a4bb17234c2d",
-"group__SceGxmUser.html#gga8b82ebb229b9a482d50aa79b2a3bf43ba3ac1c4bbea756100be7aa65a7ad1a76c",
-"group__SceGxmUser.html#ggac1b04c3c4759f33789b4ebe6af59f295aee4e02d980951e4e51a56dcc5831a35b",
-"group__SceHttpUser.html#ga38d96f61e6e830471287d3818f80668b",
-"group__SceHttpUser.html#gga4bdbb7988c7d6a03c5888abe1e0b6cd9a67e213a1728ab761d948b6c9b6a16f66",
-"group__SceHttpUser.html#ggad0a4ccc51d03c24dcf168d0ef849090da8b624a11855bf88862be0c5374a28bf8",
-"group__SceImeUser.html#ggac1424541278092ca2d2a59603dc95209a42cf05a5ddb847665d0f6dc3329227a1",
-"group__SceJpegEncKernel.html#ga88a0f6c00904fcf39aec813841e8776b",
-"group__SceKernelDebugKernel.html#ga59c83ca5fd9f4d5f9b1f4852375003f8",
-"group__SceKernelErrorUser.html#ggabcc4e561f9c1bfe7949f334464718136a22f4a21bbc2c008489b713ec8f6740f3",
-"group__SceKernelErrorUser.html#ggabcc4e561f9c1bfe7949f334464718136a6c485ae0606070de909e4e3b3c84c74b",
-"group__SceKernelErrorUser.html#ggabcc4e561f9c1bfe7949f334464718136aaf064fb81b011bd3ed8e25220e3346a9",
-"group__SceKernelErrorUser.html#ggabcc4e561f9c1bfe7949f334464718136ae7f658cd81904104bc00ba0a8e381381",
-"group__SceLibJsonUser.html#gaa4786585fd9f95869d58f19d96666826",
-"group__SceLocationUser.html#ggaddf7a2c21ea1e16531aab2a10ba01038a6555567eadf70d4de12d7993807d1486",
-"group__SceModulemgrKernel.html#ga3da21d8df445ea902fe5413ef24a43e3",
-"group__SceMusicExportUser.html#gab8d73ea7b3e3b65188b7b6ca21f9e557",
-"group__SceNetKernel.html#ga5c91e958572e019c0a09da0dcac613c8",
-"group__SceNetKernel.html#gga1ed6a8357fa6fac7b39ade81816648f0ae643856788a2f8ed67f59c93a54c6eac",
-"group__SceNetKernel.html#gga80cc519fa0e058a19a67b756f8837ef0a1d6166b5234498df2b490428e56be1fb",
-"group__SceNetKernel.html#gga80cc519fa0e058a19a67b756f8837ef0a507c65fbd02bbc6d11bf78c9b139baa2",
-"group__SceNetKernel.html#gga80cc519fa0e058a19a67b756f8837ef0aa35dcfa7564d89209e2b109181b82a7c",
-"group__SceNetKernel.html#gga80cc519fa0e058a19a67b756f8837ef0ad736959344faafbea9754038787799f0",
-"group__SceNetKernel.html#ggaa9f84090d647762faf37438e980b70baa4ac43c8a7c0f6d6a4889ffeb28937970",
-"group__SceNetKernel.html#ggad86d79264293e1c317019d5e581ce1d7a07602ba09bc74ea29f7aae754d6f90af",
-"group__SceNetKernel.html#ggad86d79264293e1c317019d5e581ce1d7a350575e46b6cc4f0232e0871ea9e1212",
-"group__SceNetKernel.html#ggad86d79264293e1c317019d5e581ce1d7a705603e09f40cf6fc4dd09a32410a964",
-"group__SceNetKernel.html#ggad86d79264293e1c317019d5e581ce1d7a99de0e4a3efb8f13ad2e1cddca4fe7dc",
-"group__SceNetKernel.html#ggad86d79264293e1c317019d5e581ce1d7acadabd967a725c17a1aa73326beaeb4d",
-"group__SceNetKernel.html#ggadda60e631259413051c912fe52af5264a55e8980b489c46c2e0c428e0953fb80d",
-"group__SceNetUser.html#ga122f2afc434c02334e38bee69fff868f",
-"group__SceNetUser.html#gga4abb91288df65940e285c941421841b3a51384800c5c6f67b1195b21df322bb44",
-"group__ScePgfUser.html#ga950e8947da9416a7fcf924e1989593ee",
-"group__ScePowerKernel.html#gga87add7efd8177f03fecc6fdf9233c57aa7376a08cb2d00811cff51601a7106e19",
-"group__ScePromoterUtilUser.html#ggaa73ff0673f95679417e358a5b15fd911a7f9de715d903c74b0fd6faea5d740dae",
-"group__ScePspnetAdhocctlUser.html#ggaf8309debd043e57a24cedecab637d201a2290a991cc5e8c72218732c703032cb0",
-"group__ScePvfUser.html#gga749adf3de656dcb1ef9278eb5baa8f72a190e838f017995689c84e471f22a3a4d",
-"group__SceRtcUser.html#gac4506c3a49ec76f4b00d65d962f59bf8",
-"group__SceScreenShotUser.html#ggadcdf51c7ba49b115104817e26dfb6bc0a1d4f3d28982f68dc26c07c476d167b4f",
-"group__SceStatKernel.html#gga4dd637f7f7eea9b13a81e4ab04cb6b16a4f329edb2d4f0674c6ce1560427ad3ea",
-"group__SceStatUser.html#gaad6e5e897cea0e2efda29316e139f7c9",
-"group__SceSysconKernel.html#gga7c6b1fb438122526270f29b1eac44feeaad578ec8c6bdbaa238797573c45036f2",
-"group__SceSysmemKernel.html#ggaaa2a5b0a0ae74026d992a82e4f80b6beaa5bad95a632fd506903225fdb0ce621e",
-"group__SceSysmoduleUser.html#ggab4fe3bc5e185568aced2338b98cbae41a1665b504c2a40ce40a8116773bff75c9",
-"group__SceSystemParamUser.html#ga60caf27f6d446ccd1dfe165e1b6bee5e",
-"group__SceThreadMgrKernel.html#gabcb9e5688794c7a70b17761e973f0569",
-"group__SceThreadMgrKernel.html#ggab73e1647ba8ce49d40132e57883602dca3a02bc58bf1ba70ac6dc77d2cb16aadb",
-"group__SceThreadMgrUser.html#gad1b98f9743cae9a86d6414da646c61a0",
-"group__SceTypesUser.html#gaf9f386d089cf0fcde98b35f4359fbc26",
-"group__SceUdcdKernel.html#gga89364761934556860312bed01ea9a968a1af0d8916fca29961f41fb7433126527",
-"group__SceUdcdKernel.html#ggaffd43136d3fc38126bd4a36392c5f3b9afbfe0c14c9f6021496d0fd097db534f9",
-"group__SceUsbdUser.html#ga8b8d7f3d5a02fa52168bd31d38b65143",
-"group__SceVshBridgeUser.html",
-"sqlite_8h.html"
+"annotated.html",
+"globals_v.html",
+"group__SceAppUtilUser.html#ga9933c174ca527e0faee9f620d0fc3418",
+"group__SceAtracUser.html#ggaf7d3434cf8ebec732eea15aaaab14a23afb4294c93137bd5c0e7c4fbe54191ae7",
+"group__SceAudiodecUser.html#ga59038bca3ef31b693c64828a30c32b02",
+"group__SceAudioencUser.html#gga49904416b8043a7518d7fb2f528f61e5a7a372575b6b955f6208969ea2384217f",
+"group__SceBtKernel.html#gaecb473686af07e07fc599b8c86546b19",
+"group__SceBtKernel.html#gga342d70612661ed1c5631e7bb3cb2a74ea5471135a811976ad30d8a656b34b0f8a",
+"group__SceBtKernel.html#gga342d70612661ed1c5631e7bb3cb2a74eab01f598d32b0c573ef405152041e1df4",
+"group__SceCLibUser.html#ga82cc653c251e5b18acefeac69a615b4e",
+"group__SceCameraUser.html#gga4588e783c667860efff696257a2b40d0a0c4246feaa627a4436adf4ee33c0d160",
+"group__SceCameraUser.html#ggafef9d2259cf3c481af4ee07001b40c5aa82c87f83e9d8917d75dcb24189c57392",
+"group__SceCpuKernel.html#gaa7e762b395b3ff620fa62deff747641e",
+"group__SceCtrlKernel.html#gga7e5a5d40bbb69e9af702d5dedac70760a28afba04a95f4d7738b22e7af3fb6814",
+"group__SceDeci4pUserpKernel.html#ga0b7faab35fc0b79646dc16e9069c614c",
+"group__SceDisplayUser.html",
+"group__SceFiberUser.html#gga84a7d9b255d7ce79d87a043eb5ae33d9a7a7d738f3e2c2c12b2c8fb4c82b170a2",
+"group__SceGxmUser.html#ga105ef4928235aace0b5da02c3ebe236c",
+"group__SceGxmUser.html#ga756bcded1fa8119b6e10717041534f96",
+"group__SceGxmUser.html#gad6bded279286d41df0eabbf308c464d9",
+"group__SceGxmUser.html#gga29791baa70d7bf199afdb50b8e510d42a0d46004e01d3901ec191422b42ff5712",
+"group__SceGxmUser.html#gga29791baa70d7bf199afdb50b8e510d42a5781c68acddab8f215e7ce733e130fa4",
+"group__SceGxmUser.html#gga29791baa70d7bf199afdb50b8e510d42a950e50c882899473a6a38f331789716a",
+"group__SceGxmUser.html#gga29791baa70d7bf199afdb50b8e510d42ad6a788f7b99e4190f52507abd4e747a3",
+"group__SceGxmUser.html#gga313f1a9f04905961e3fa5bd9f80ab9a6a5f50bdbe00e65de48fa29432104f0941",
+"group__SceGxmUser.html#gga504a443c7bee91a2765e7554067d53aba896f4753d7eac3105d1574da82bc4301",
+"group__SceGxmUser.html#gga7e3e7a353fe9abc7d079a012b2dab793ace52b7093dffd223495b035a7b062361",
+"group__SceGxmUser.html#gga86183627eb1a24e059748cb95d618cc3afbeb6f045d24aafc3b2dbc5d43dbfdd0",
+"group__SceGxmUser.html#ggab91cde323e8541591d28c3ae9e1c1a1ead6b28c9b6cb85ea426d3acb2216251a9",
+"group__SceHidUser.html#gac44af84b16730925f260248d462c572a",
+"group__SceHttpUser.html#ggaaa18957d27811886d3bb4a95b2f6cdc5a10af75393cda7818dcfc9143a08dafda",
+"group__SceHttpUser.html#ggab9a0a0dba937986dd20100c376d0a796af73ddf8120f8c9d659d3b740eec902bb",
+"group__SceImeUser.html#gga0273a5db93fc22b99ce30fcf575f742ca7f585256612ff7e269b9c8f0ddfe66bd",
+"group__SceIntrMgr.html",
+"group__SceIofilemgrKernel.html#ggae600835f7388ec3b81bff230b14f38e7a28730a1a01684ccf264820b54ca0634d",
+"group__SceJpegEncKernel.html#gga88a0f6c00904fcf39aec813841e8776bafcf2e21afdf63e09c27bc78ed4b5ba48",
+"group__SceKernelErrorUser.html#ggabcc4e561f9c1bfe7949f334464718136a0a8cc59bb584d72d43052d92021171cd",
+"group__SceKernelErrorUser.html#ggabcc4e561f9c1bfe7949f334464718136a4c4f73a6e1f0c5a42d4cd98c38216dc0",
+"group__SceKernelErrorUser.html#ggabcc4e561f9c1bfe7949f334464718136a8a99efa7c4e30429d43ee54f5a67498d",
+"group__SceKernelErrorUser.html#ggabcc4e561f9c1bfe7949f334464718136ac8d01986dfea0693566a1955e6a0978e",
+"group__SceKernelSysrootKernel.html#ggaae18ca6d933be8561673eb190fde924ca9e1425368d9829500a8316186d508f60",
+"group__SceLibSslUser.html#gafa209c71c2205c2ce7e4cf78aa21e0dc",
+"group__SceMessageDialogUser.html#gaccbe96d1159d666e39a72bc036cda5ea",
+"group__SceModulemgrUser.html#ga6d577c676901faf794ed58ff30f8653f",
+"group__SceNetCheckDialogUser.html",
+"group__SceNetKernel.html#ga315ad547a093f25d4562c6e1b9cd0597",
+"group__SceNetKernel.html#gga1ed6a8357fa6fac7b39ade81816648f0a7e59ee3bf1dd2529cb8c97e2893bde03",
+"group__SceNetKernel.html#gga80cc519fa0e058a19a67b756f8837ef0a0cc9baa431bcc0aa4362b1675942f423",
+"group__SceNetKernel.html#gga80cc519fa0e058a19a67b756f8837ef0a3de56ad0983ae942d92bc8a5c3f44f12",
+"group__SceNetKernel.html#gga80cc519fa0e058a19a67b756f8837ef0a850ecddf3266e23f7fa4e113d44feec1",
+"group__SceNetKernel.html#gga80cc519fa0e058a19a67b756f8837ef0ac995fcde98c2c6d9de9c650b23ba1a20",
+"group__SceNetKernel.html#ggaa5ea6e407e2c996ec4536c5dbdddc35da2a2ad2ee717e58d88ecf65c6deba4b18",
+"group__SceNetKernel.html#ggaccdd18c5062ffdc4d6c0b736025bf97fabe1086686ed5d57627dd292bbfe4c1cb",
+"group__SceNetKernel.html#ggad86d79264293e1c317019d5e581ce1d7a29fe14b7aa41f39f55b1ab5cbd9a39b4",
+"group__SceNetKernel.html#ggad86d79264293e1c317019d5e581ce1d7a602ccccb916c4d928e6b977e37dc8bbe",
+"group__SceNetKernel.html#ggad86d79264293e1c317019d5e581ce1d7a93b42df56500d6575b254d7af13ca734",
+"group__SceNetKernel.html#ggad86d79264293e1c317019d5e581ce1d7abe6fd8185c876179c9c447efcdd9710b",
+"group__SceNetKernel.html#ggadda60e631259413051c912fe52af5264a2ce296a631c76b2cfb1d4516727c1475",
+"group__SceNetKernel.html#ggadda60e631259413051c912fe52af5264ad331ddfd57118894cc2ddcc639793892",
+"group__SceNetUser.html#gaff328099e5197f18c021c14793d0a476",
+"group__SceNgsUser.html#gacedc119e0674d87ffa6eca931faacd89",
+"group__ScePervasiveKernel.html#ga02f98a128580bcb160e41e370b5258b4",
+"group__ScePowerKernel.html#ga0bf1df7c14ace5d3f5ebbd7ddf73b38c",
+"group__ScePowerUser.html#ggaa2bcfd45ea2a6c6e97ecc3145bbc45cea66d3ee9602495d73f7e2e4a676f9b489",
+"group__ScePspnetAdhocUser.html#ggab16ce70c054fb9e63854adf0f373789fa047432cd21f0df241811103e2acf6798",
+"group__ScePvfUser.html#ga8de1817cada44606e4945ba703353146",
+"group__SceRazorCaptureUser.html#gad77b6773cd7f5f5137658fb4754ebb48",
+"group__SceRtcUser.html#gad536f5981e4851afaa32500ea558efe3",
+"group__SceScreenShotUser.html#ggadcdf51c7ba49b115104817e26dfb6bc0a36da929800ce3d34b9fc6f402be31708",
+"group__SceSuspendKernel.html#gga1b448620c7525b730a2b94164e34d77fae71baa308d1cf3469b372f41a74de0e9",
+"group__SceSysmemKernel.html#ga0fc8ffbb625111d27eff23d6b799ca82",
+"group__SceSysmemKernel.html#gab8b3d8a0785853cb784efcfa26a641b9",
+"group__SceSysmoduleUser.html#ga4e9f895ef35ecf418edbfad969b87116",
+"group__SceSysmoduleUser.html#ggab4fe3bc5e185568aced2338b98cbae41a770d4b62c54a7a23cf4c481eb543da28",
+"group__SceSystemParamUser.html#ggab138af3ead059bc6b78e093f5f92dce0a5047b42dc0be2d067b0776df3a0720ff",
+"group__SceThreadMgrKernel.html#gga552cbf506e81e208e4bf3e75badc1c40a24f465ecb5dabe84ef912447516e7637",
+"group__SceThreadMgrKernel.html#ggab73e1647ba8ce49d40132e57883602dca8abd95cf3cd992b483d74e71490a366c",
+"group__SceTouchUser.html#ga9955c144eae8c285fd26f3e1e61ae969",
+"group__SceTypesKernel.html#gga394b3903fbf00ba2b6243f60689a5a5fa3fd65a3fb49d31054e96aaf9ab3ffced",
+"group__SceUdcdKernel.html#gaeaeb5548b6db222104675158bce05d85",
+"group__SceUdcdKernel.html#ggaffd43136d3fc38126bd4a36392c5f3b9a104203c761bfa0e85e649a014af0c7c3",
+"group__SceUsbdKernel.html#ggaea15c9e75b573d065050efee195a98fda92551a65741eef45887879472726189e",
+"group__SceVideoDecUser.html#gga761f427e0bf9a99f49c616bc62cf3fc6a9d554216210288ca63be749247aec975",
+"motion__dev_8h.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

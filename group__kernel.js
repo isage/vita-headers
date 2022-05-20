@@ -1,11 +1,11 @@
 var group__kernel =
 [
     [ "kernel bootloader", "group__SceKbl.html", "group__SceKbl" ],
+    [ "Product Library", "group__ScePmMgr.html", "group__ScePmMgr" ],
     [ "C Standard Library", "group__SceCLib.html", "group__SceCLib" ],
-    [ "CPU Library", "group__SceCPU.html", "group__SceCPU" ],
+    [ "CPU Library", "group__SceCpu.html", "group__SceCpu" ],
     [ "System Module Library", "group__SceSysmodule.html", "group__SceSysmodule" ],
     [ "Kernel Errors", "group__SceKernelError.html", "group__SceKernelError" ],
-    [ "Loadcore Library", "group__SceLoadcore.html", "group__SceLoadcore" ],
     [ "Module Manager Library", "group__SceModulemgr.html", "group__SceModulemgr" ],
     [ "Process Manager Library", "group__SceProcessmgr.html", "group__SceProcessmgr" ],
     [ "Thread Manager Library", "group__SceThreadMgr.html", "group__SceThreadMgr" ],

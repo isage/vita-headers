@@ -93,5 +93,18 @@ var group__SceRtcUser =
     [ "sceRtcFormatRFC3339", "group__SceRtcUser.html#ga5e2ca980f623457e528df79347a397de", null ],
     [ "sceRtcFormatRFC3339LocalTime", "group__SceRtcUser.html#ga68539e004ae223db0679e1ce8259b724", null ],
     [ "sceRtcParseDateTime", "group__SceRtcUser.html#ga850861a03ad9c181ede534fa97523b80", null ],
-    [ "sceRtcParseRFC3339", "group__SceRtcUser.html#ga6588d010c53e978a7aa75a3fb891a684", null ]
+    [ "sceRtcParseRFC3339", "group__SceRtcUser.html#ga6588d010c53e978a7aa75a3fb891a684", null ],
+    [ "_sceRtcConvertLocalTimeToUtc", "group__SceRtcUser.html#gac45b5ade940749d5ce44694a43c576cc", null ],
+    [ "_sceRtcConvertUtcToLocalTime", "group__SceRtcUser.html#ga0b561b3a449b6c87c7bed75638920d51", null ],
+    [ "_sceRtcFormatRFC2822", "group__SceRtcUser.html#ga63dc21373106907c7d37c6d94f8858ea", null ],
+    [ "_sceRtcFormatRFC2822LocalTime", "group__SceRtcUser.html#ga29ef607251f054e492d772c77c96d9f7", null ],
+    [ "_sceRtcFormatRFC3339", "group__SceRtcUser.html#ga8a6a589207e5e4a3d20a296b79c6ebb3", null ],
+    [ "_sceRtcFormatRFC3339LocalTime", "group__SceRtcUser.html#gafd702da6b59f219e55fa0c381b2dcf46", null ],
+    [ "sceRtcGetCurrentAdNetworkTick", "group__SceRtcUser.html#ga5585ba0944539ee5c65373153545040f", null ],
+    [ "sceRtcGetCurrentDebugNetworkTick", "group__SceRtcUser.html#gaee8fe33dd79a318f17083bc5fd91291d", null ],
+    [ "sceRtcGetCurrentGpsTick", "group__SceRtcUser.html#gab67df38adda90703aecad886b21bd846", null ],
+    [ "sceRtcGetCurrentRetainedNetworkTick", "group__SceRtcUser.html#ga9f566beb12da7b022efe4725de370045", null ],
+    [ "sceRtcGetLastAdjustedTick", "group__SceRtcUser.html#ga7db8195d0f084e6762199ec79895f68e", null ],
+    [ "sceRtcGetLastReincarnatedTick", "group__SceRtcUser.html#ga8140fdd386e4a3cf81e4a222c199676c", null ],
+    [ "sceRtcGetAccumulativeTime", "group__SceRtcUser.html#gabeaa931f5ca66305892a92d0f2f30d85", null ]
 ];
